@@ -29,7 +29,8 @@ public class User {
 
     private String firstName;
 
-    private String lastName;
+    private String phoneNumber;
+
 
     @Enumerated(EnumType.ORDINAL)
     private UserRole role = UserRole.USER;
